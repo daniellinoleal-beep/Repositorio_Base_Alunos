@@ -1,0 +1,21 @@
+import pyautogui as pg
+
+pg.mouseInfo()
+
+pg.press("win")
+pg.sleep(1)
+pg.write("chrome")
+pg.sleep(1)
+pg.press("enter")
+pg.sleep(1)
+pg.write("www.youtube.com")
+pg.sleep(1)
+pg.press("enter")
+pg.sleep(1)
+pg.click(1000, 170)
+pg.sleep(1)
+pg.write("tonigon")
+pg.sleep(1)
+pg.press("enter")
+pg.sleep(2)
+pg.click(900,900)
